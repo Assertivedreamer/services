@@ -1,0 +1,16 @@
+<h1>ngfornested</h1>
+
+<div *ngFor="let x of myPerson">
+
+  <div *ngFor="let y of x|keyvalue">
+
+    <h2>{{y.key}}-----{{y.value}}</h2>
+  </div>
+
+</div>
+
+
+<hr><hr>
+
+
+
